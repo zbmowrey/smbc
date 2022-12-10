@@ -12,9 +12,10 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get --yes update \
 RUN pip install awslambdaric
 
 RUN adduser --disabled-login --gecos "" hello
-ENV AWS_DEFAULT_REGION us-west-2
+ENV AWS_DEFAULT_REGION us-east-2
 USER hello
 WORKDIR /src
 ENV LC_ALL="C.UTF-8" LANG="C.UTF-8"
 
 ENTRYPOINT ["/usr/bin/python3","/src/hello.py"]
+
