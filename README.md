@@ -36,4 +36,4 @@ Containerized Python Lambda Hello World
 
 ## Operate
 
-    Create a lambda function and point it at 022017851643.dkr.ecr.us-east-2.amazonaws.com/smbc container (:latest).
+Create a lambda function and point it at 022017851643.dkr.ecr.us-east-2.amazonaws.com/smbc container (:latest).
