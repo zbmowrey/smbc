@@ -33,3 +33,7 @@ Containerized Python Lambda Hello World
 ## Pull Latest
 
     docker pull 022017851643.dkr.ecr.us-east-2.amazonaws.com/smbc:latest
+
+## Operate
+
+    Create a lambda function and point it at 022017851643.dkr.ecr.us-east-2.amazonaws.com/smbc container (:latest).
